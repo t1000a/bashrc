@@ -1,0 +1,17 @@
+{
+  "name": "marketplace-value-lookup-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend for the iOS marketplace value lookup Shortcut. Estimates resale value from live eBay listings.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test src/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
